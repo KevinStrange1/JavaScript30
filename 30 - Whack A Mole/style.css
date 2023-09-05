@@ -14,6 +14,10 @@ body {
   font-family: 'Amatic SC', cursive;
 }
 
+.game {
+  cursor: url('hammer.svg'), auto;
+}
+
 h1 {
   text-align: center;
   font-size: 10rem;
@@ -62,6 +66,10 @@ h1 {
   width: 100%;
   height: 100%;
   transition:all 0.4s;
+}
+
+.game.rotated-cursor {
+  cursor: url('r-hammer.svg'), auto;
 }
 
 .hole.up .mole {
