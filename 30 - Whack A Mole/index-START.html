@@ -81,6 +81,10 @@
         score++;
         this.classList.remove('up');
         scoreBoard.textContent = score;
+
+        const gameDiv = document.querySelector('.game')
+        gameDiv.classList.add('rotated-cursor');
+        setTimeout(() => gameDiv.classList.remove('rotated-cursor'), 200);
       }
 
       moles.forEach((mole) => mole.addEventListener('click', bonk));
