@@ -75,6 +75,17 @@ h2 {
   transition:all 0.4s;
 }
 
+.deadMole {
+  background: url('deadMole.svg') bottom center no-repeat;
+  background-size: 60%;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  transition:all 0.4s;
+  rotate: 40deg;
+}
+
 .game.rotated-cursor {
   cursor: url('r-hammer.svg'), auto;
 }
@@ -87,7 +98,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 0 50px 0;
+  padding: 30px 0 30px 0;
 }
 
 
